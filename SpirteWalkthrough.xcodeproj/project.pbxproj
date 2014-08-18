@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4928D73419A1C9ED00E751E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4928D73319A1C9ED00E751E0 /* Foundation.framework */; };
+		4928D73619A1C9ED00E751E0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4928D73519A1C9ED00E751E0 /* CoreGraphics.framework */; };
+		4928D73819A1C9ED00E751E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4928D73719A1C9ED00E751E0 /* UIKit.framework */; };
+		4928D73E19A1C9ED00E751E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4928D73C19A1C9ED00E751E0 /* InfoPlist.strings */; };
+		4928D74019A1C9ED00E751E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4928D73F19A1C9ED00E751E0 /* main.m */; };
+		4928D74419A1C9ED00E751E0 /* SpirteAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4928D74319A1C9ED00E751E0 /* SpirteAppDelegate.m */; };
+		4928D74719A1C9ED00E751E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4928D74519A1C9ED00E751E0 /* Main.storyboard */; };
+		4928D74A19A1C9ED00E751E0 /* SpirteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4928D74919A1C9ED00E751E0 /* SpirteViewController.m */; };
+		4928D74C19A1C9ED00E751E0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4928D74B19A1C9ED00E751E0 /* Images.xcassets */; };
+		4928D75319A1C9ED00E751E0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4928D75219A1C9ED00E751E0 /* XCTest.framework */; };
+		4928D75419A1C9ED00E751E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4928D73319A1C9ED00E751E0 /* Foundation.framework */; };
+		4928D75519A1C9ED00E751E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4928D73719A1C9ED00E751E0 /* UIKit.framework */; };
+		4928D75D19A1C9ED00E751E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4928D75B19A1C9ED00E751E0 /* InfoPlist.strings */; };
+		4928D75F19A1C9ED00E751E0 /* SpirteWalkthroughTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4928D75E19A1C9ED00E751E0 /* SpirteWalkthroughTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4928D75619A1C9ED00E751E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4928D72819A1C9ED00E751E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4928D72F19A1C9ED00E751E0;
+			remoteInfo = SpirteWalkthrough;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4928D73019A1C9ED00E751E0 /* SpirteWalkthrough.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpirteWalkthrough.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4928D73319A1C9ED00E751E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4928D73519A1C9ED00E751E0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4928D73719A1C9ED00E751E0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4928D73B19A1C9ED00E751E0 /* SpirteWalkthrough-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpirteWalkthrough-Info.plist"; sourceTree = "<group>"; };
+		4928D73D19A1C9ED00E751E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4928D73F19A1C9ED00E751E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4928D74119A1C9ED00E751E0 /* SpirteWalkthrough-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpirteWalkthrough-Prefix.pch"; sourceTree = "<group>"; };
+		4928D74219A1C9ED00E751E0 /* SpirteAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpirteAppDelegate.h; sourceTree = "<group>"; };
+		4928D74319A1C9ED00E751E0 /* SpirteAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpirteAppDelegate.m; sourceTree = "<group>"; };
+		4928D74619A1C9ED00E751E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4928D74819A1C9ED00E751E0 /* SpirteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpirteViewController.h; sourceTree = "<group>"; };
+		4928D74919A1C9ED00E751E0 /* SpirteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpirteViewController.m; sourceTree = "<group>"; };
+		4928D74B19A1C9ED00E751E0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4928D75119A1C9ED00E751E0 /* SpirteWalkthroughTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpirteWalkthroughTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4928D75219A1C9ED00E751E0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4928D75A19A1C9ED00E751E0 /* SpirteWalkthroughTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpirteWalkthroughTests-Info.plist"; sourceTree = "<group>"; };
+		4928D75C19A1C9ED00E751E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4928D75E19A1C9ED00E751E0 /* SpirteWalkthroughTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpirteWalkthroughTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4928D72D19A1C9ED00E751E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4928D73619A1C9ED00E751E0 /* CoreGraphics.framework in Frameworks */,
+				4928D73819A1C9ED00E751E0 /* UIKit.framework in Frameworks */,
+				4928D73419A1C9ED00E751E0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4928D74E19A1C9ED00E751E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4928D75319A1C9ED00E751E0 /* XCTest.framework in Frameworks */,
+				4928D75519A1C9ED00E751E0 /* UIKit.framework in Frameworks */,
+				4928D75419A1C9ED00E751E0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4928D72719A1C9ED00E751E0 = {
+			isa = PBXGroup;
+			children = (
+				4928D73919A1C9ED00E751E0 /* SpirteWalkthrough */,
+				4928D75819A1C9ED00E751E0 /* SpirteWalkthroughTests */,
+				4928D73219A1C9ED00E751E0 /* Frameworks */,
+				4928D73119A1C9ED00E751E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4928D73119A1C9ED00E751E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4928D73019A1C9ED00E751E0 /* SpirteWalkthrough.app */,
+				4928D75119A1C9ED00E751E0 /* SpirteWalkthroughTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4928D73219A1C9ED00E751E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4928D73319A1C9ED00E751E0 /* Foundation.framework */,
+				4928D73519A1C9ED00E751E0 /* CoreGraphics.framework */,
+				4928D73719A1C9ED00E751E0 /* UIKit.framework */,
+				4928D75219A1C9ED00E751E0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4928D73919A1C9ED00E751E0 /* SpirteWalkthrough */ = {
+			isa = PBXGroup;
+			children = (
+				4928D74219A1C9ED00E751E0 /* SpirteAppDelegate.h */,
+				4928D74319A1C9ED00E751E0 /* SpirteAppDelegate.m */,
+				4928D74519A1C9ED00E751E0 /* Main.storyboard */,
+				4928D74819A1C9ED00E751E0 /* SpirteViewController.h */,
+				4928D74919A1C9ED00E751E0 /* SpirteViewController.m */,
+				4928D74B19A1C9ED00E751E0 /* Images.xcassets */,
+				4928D73A19A1C9ED00E751E0 /* Supporting Files */,
+			);
+			path = SpirteWalkthrough;
+			sourceTree = "<group>";
+		};
+		4928D73A19A1C9ED00E751E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4928D73B19A1C9ED00E751E0 /* SpirteWalkthrough-Info.plist */,
+				4928D73C19A1C9ED00E751E0 /* InfoPlist.strings */,
+				4928D73F19A1C9ED00E751E0 /* main.m */,
+				4928D74119A1C9ED00E751E0 /* SpirteWalkthrough-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4928D75819A1C9ED00E751E0 /* SpirteWalkthroughTests */ = {
+			isa = PBXGroup;
+			children = (
+				4928D75E19A1C9ED00E751E0 /* SpirteWalkthroughTests.m */,
+				4928D75919A1C9ED00E751E0 /* Supporting Files */,
+			);
+			path = SpirteWalkthroughTests;
+			sourceTree = "<group>";
+		};
+		4928D75919A1C9ED00E751E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4928D75A19A1C9ED00E751E0 /* SpirteWalkthroughTests-Info.plist */,
+				4928D75B19A1C9ED00E751E0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4928D72F19A1C9ED00E751E0 /* SpirteWalkthrough */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4928D76219A1C9ED00E751E0 /* Build configuration list for PBXNativeTarget "SpirteWalkthrough" */;
+			buildPhases = (
+				4928D72C19A1C9ED00E751E0 /* Sources */,
+				4928D72D19A1C9ED00E751E0 /* Frameworks */,
+				4928D72E19A1C9ED00E751E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpirteWalkthrough;
+			productName = SpirteWalkthrough;
+			productReference = 4928D73019A1C9ED00E751E0 /* SpirteWalkthrough.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4928D75019A1C9ED00E751E0 /* SpirteWalkthroughTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4928D76519A1C9ED00E751E0 /* Build configuration list for PBXNativeTarget "SpirteWalkthroughTests" */;
+			buildPhases = (
+				4928D74D19A1C9ED00E751E0 /* Sources */,
+				4928D74E19A1C9ED00E751E0 /* Frameworks */,
+				4928D74F19A1C9ED00E751E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4928D75719A1C9ED00E751E0 /* PBXTargetDependency */,
+			);
+			name = SpirteWalkthroughTests;
+			productName = SpirteWalkthroughTests;
+			productReference = 4928D75119A1C9ED00E751E0 /* SpirteWalkthroughTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4928D72819A1C9ED00E751E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Spirte;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Jun Lee";
+				TargetAttributes = {
+					4928D75019A1C9ED00E751E0 = {
+						TestTargetID = 4928D72F19A1C9ED00E751E0;
+					};
+				};
+			};
+			buildConfigurationList = 4928D72B19A1C9ED00E751E0 /* Build configuration list for PBXProject "SpirteWalkthrough" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4928D72719A1C9ED00E751E0;
+			productRefGroup = 4928D73119A1C9ED00E751E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4928D72F19A1C9ED00E751E0 /* SpirteWalkthrough */,
+				4928D75019A1C9ED00E751E0 /* SpirteWalkthroughTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4928D72E19A1C9ED00E751E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4928D74C19A1C9ED00E751E0 /* Images.xcassets in Resources */,
+				4928D73E19A1C9ED00E751E0 /* InfoPlist.strings in Resources */,
+				4928D74719A1C9ED00E751E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4928D74F19A1C9ED00E751E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4928D75D19A1C9ED00E751E0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4928D72C19A1C9ED00E751E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4928D74A19A1C9ED00E751E0 /* SpirteViewController.m in Sources */,
+				4928D74019A1C9ED00E751E0 /* main.m in Sources */,
+				4928D74419A1C9ED00E751E0 /* SpirteAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4928D74D19A1C9ED00E751E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4928D75F19A1C9ED00E751E0 /* SpirteWalkthroughTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4928D75719A1C9ED00E751E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4928D72F19A1C9ED00E751E0 /* SpirteWalkthrough */;
+			targetProxy = 4928D75619A1C9ED00E751E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4928D73C19A1C9ED00E751E0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4928D73D19A1C9ED00E751E0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4928D74519A1C9ED00E751E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4928D74619A1C9ED00E751E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4928D75B19A1C9ED00E751E0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4928D75C19A1C9ED00E751E0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4928D76019A1C9ED00E751E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		4928D76119A1C9ED00E751E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4928D76319A1C9ED00E751E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpirteWalkthrough/SpirteWalkthrough-Prefix.pch";
+				INFOPLIST_FILE = "SpirteWalkthrough/SpirteWalkthrough-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4928D76419A1C9ED00E751E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpirteWalkthrough/SpirteWalkthrough-Prefix.pch";
+				INFOPLIST_FILE = "SpirteWalkthrough/SpirteWalkthrough-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4928D76619A1C9ED00E751E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SpirteWalkthrough.app/SpirteWalkthrough";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpirteWalkthrough/SpirteWalkthrough-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SpirteWalkthroughTests/SpirteWalkthroughTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4928D76719A1C9ED00E751E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SpirteWalkthrough.app/SpirteWalkthrough";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpirteWalkthrough/SpirteWalkthrough-Prefix.pch";
+				INFOPLIST_FILE = "SpirteWalkthroughTests/SpirteWalkthroughTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4928D72B19A1C9ED00E751E0 /* Build configuration list for PBXProject "SpirteWalkthrough" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4928D76019A1C9ED00E751E0 /* Debug */,
+				4928D76119A1C9ED00E751E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4928D76219A1C9ED00E751E0 /* Build configuration list for PBXNativeTarget "SpirteWalkthrough" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4928D76319A1C9ED00E751E0 /* Debug */,
+				4928D76419A1C9ED00E751E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4928D76519A1C9ED00E751E0 /* Build configuration list for PBXNativeTarget "SpirteWalkthroughTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4928D76619A1C9ED00E751E0 /* Debug */,
+				4928D76719A1C9ED00E751E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4928D72819A1C9ED00E751E0 /* Project object */;
+}
