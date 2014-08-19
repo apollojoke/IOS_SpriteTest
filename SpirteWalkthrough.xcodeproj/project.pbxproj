@@ -24,6 +24,7 @@
 		4928D76D19A1CEE700E751E0 /* HelloScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 4928D76C19A1CEE700E751E0 /* HelloScene.m */; };
 		4928D76F19A1D66E00E751E0 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4928D76E19A1D66E00E751E0 /* SpriteKit.framework */; };
 		4928D77319A1FF8200E751E0 /* SpaceShipScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 4928D77219A1FF8200E751E0 /* SpaceShipScene.m */; };
+		4928D77519A2F55300E751E0 /* Rocket.png in Resources */ = {isa = PBXBuildFile; fileRef = 4928D77419A2F55300E751E0 /* Rocket.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		4928D76E19A1D66E00E751E0 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
 		4928D77119A1FF8200E751E0 /* SpaceShipScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceShipScene.h; sourceTree = "<group>"; };
 		4928D77219A1FF8200E751E0 /* SpaceShipScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceShipScene.m; sourceTree = "<group>"; };
+		4928D77419A2F55300E751E0 /* Rocket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rocket.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 		4928D73A19A1C9ED00E751E0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4928D77419A2F55300E751E0 /* Rocket.png */,
 				4928D73B19A1C9ED00E751E0 /* SpirteWalkthrough-Info.plist */,
 				4928D73C19A1C9ED00E751E0 /* InfoPlist.strings */,
 				4928D73F19A1C9ED00E751E0 /* main.m */,
@@ -252,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4928D74C19A1C9ED00E751E0 /* Images.xcassets in Resources */,
+				4928D77519A2F55300E751E0 /* Rocket.png in Resources */,
 				4928D73E19A1C9ED00E751E0 /* InfoPlist.strings in Resources */,
 				4928D74719A1C9ED00E751E0 /* Main.storyboard in Resources */,
 			);

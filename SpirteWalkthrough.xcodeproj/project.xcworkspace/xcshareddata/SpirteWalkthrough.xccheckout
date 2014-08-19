@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FBD23EF8-555B-4FEB-A605-0F22325A9803</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SpirteWalkthrough</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FDEA6415-CC4E-4DFC-8718-B6D38B265907</key>
+		<string>https://github.com/apollojoke/IOS_SpriteTest.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SpirteWalkthrough.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FDEA6415-CC4E-4DFC-8718-B6D38B265907</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/apollojoke/IOS_SpriteTest.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FDEA6415-CC4E-4DFC-8718-B6D38B265907</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FDEA6415-CC4E-4DFC-8718-B6D38B265907</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SpirteWalkthrough</string>
+		</dict>
+	</array>
+</dict>
+</plist>
